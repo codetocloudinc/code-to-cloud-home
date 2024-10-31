@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "43ffe21ff50840f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d84c72c612b0e825",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "400e038804ad744a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brainstorm/Brainstorm page.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Brainstorm page"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1b78476f02c3fe6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0577d9bb1d33f3e1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "668000127a4a4a9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d062c96439685310",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30648302d7e157ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "49dc2374a0cedd56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "33fd7492d5aea778",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7b2b2c13d71c1b20",
+    "type": "split",
+    "children": [
+      {
+        "id": "0df9fdac8febd7cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce7cd87abe9f7904",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "brainstorm/Brainstorm page.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Brainstorm page"
+            }
+          },
+          {
+            "id": "415ec0b65879bb4c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "brainstorm/Brainstorm page.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Brainstorm page"
+            }
+          },
+          {
+            "id": "0fd0c7377cda1bcf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f3a1eec8ee1c7c84",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "brainstorm/Brainstorm page.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Brainstorm page"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "400e038804ad744a",
+  "lastOpenFiles": [
+    "brainstorm",
+    "brainstorm/Brainstorm page.md"
+  ]
+}
