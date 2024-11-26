@@ -37,7 +37,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
-*Note `pnpm` is a requirement for these commands. You can find out how to install them [here](https://pnpm.io/installation).*
+*Note `pnpm` is a requirement for these commands. You can find out how to install it [here](https://pnpm.io/installation).*
 
 All commands are run from the root of the project, from a terminal:
 
