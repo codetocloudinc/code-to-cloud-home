@@ -1,7 +1,7 @@
 # Astro Starter Kit: Basics
 
 ```sh
-npm create astro@latest -- --template basics
+pnpm create astro@latest -- --template basics
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
@@ -37,6 +37,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
+*Note `pnpm` is a requirement for these commands. You can find out how to install them [here](https://pnpm.io/installation).*
 
 All commands are run from the root of the project, from a terminal:
 
