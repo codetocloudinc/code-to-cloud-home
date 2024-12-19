@@ -7,13 +7,13 @@
       data="/public/code-to-cloud-icon.svg"
       type="image/svg+xml"></object>
   </div>
-  <div class="nav-list">
+  <nav>
     <a href="">Home</a><a href="">Speakers</a><a href="">Agenda</a><a href=""
       >Values</a
     ><a href="">Team</a><a href="">Pricing</a><a href="">Blog</a><a href=""
       >Buy</a
     >
-  </div>
+  </nav>
 </div>
 
 <style>
@@ -25,22 +25,29 @@
     padding: 17px 25px 17px 25px;
   }
 
-  .nav-list {
+  nav {
     display: flex;
     flex-direction: row;
+    column-gap: 16px;
     align-items: center;
   }
 
-  .nav-list a {
+  nav a {
     padding: 16px 20px 16px 20px;
     color: #faf9f6;
     font-weight: 600;
     font-size: 14px;
     text-decoration: none;
     text-align: center;
+    transition: 0.25s;
   }
 
-  .nav-list a:last-child {
+  nav a:hover {
+    background-color: #3a3b45;
+    border-radius: 10px;
+  }
+
+  nav a:last-child {
     border: 1px solid #faf9f6;
     border-radius: 10px;
   }
