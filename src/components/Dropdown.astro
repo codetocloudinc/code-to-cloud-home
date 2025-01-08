@@ -1,0 +1,22 @@
+---
+interface Props {
+	title: string;
+	time: string;
+	body: string;
+}
+
+const { time, title, body } = Astro.props;
+---
+
+<details class="accordion">
+	<summary class="accordion-header">
+		<span>{time}</span>
+		<span>{title}</span>
+	</summary>
+	<div class="accordion-body">
+		<p>{body}</p>
+	</div>
+</details>
+
+<style>
+</style>
