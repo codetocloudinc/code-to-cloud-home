@@ -3,20 +3,97 @@ interface Props {
 	title: string;
 	time: string;
 	body: string;
+	speaker: string;
 }
 
-const { time, title, body } = Astro.props;
+const { speaker, time, title, body } = Astro.props;
 ---
 
 <details class="accordion">
 	<summary class="accordion-header">
-		<span>{time}</span>
-		<span>{title}</span>
+		<div class="header-content">
+			<span class="time">{time}</span>
+			<span class="title">{title}</span>
+            <i class="fa fa-caret-down toggle-icon"></i>
+		</div>
 	</summary>
 	<div class="accordion-body">
-		<p>{body}</p>
+		<p class="body-text">{body}</p>
+		<p class="speaker">Speaker: {speaker}</p>
 	</div>
 </details>
 
 <style>
+.accordion {
+	border: 1px solid #FAF9F6;
+	border-radius: 8px;
+	padding: 12px;
+	margin-bottom: 16px;
+	background-color: #1c2120;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.accordion:hover {
+	transform: scale(1.02);
+}
+
+.header-content {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	width: 100%;
+}
+
+.accordion-header {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.time {
+	color: #FAF9F6;
+	font-size: 14px;
+}
+
+.title {
+	color: #FAF9F6;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.accordion-body {
+	margin-top: 8px;
+	padding: 8px;
+	background-color: #1c2120;
+	border-radius: 6px;
+}
+
+.toggle-icon {
+	color: #FAF9F6;
+	font-size: 18px;
+	transition: transform 0.3s ease;
+}
+
+details[open] .toggle-icon {
+	transform: rotate(180deg);
+}
+
+.body-text {
+	color: #FAF9F6;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.speaker {
+	color: #FAF9F6;
+	font-style: italic;
+	font-size: 13px;
+	text-align: left;
+}
+
+.accordion-header:focus {
+	outline: 2px solid #FAF9F6;
+	outline-offset: 2px;
+}
 </style>
