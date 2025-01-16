@@ -19,14 +19,14 @@ const { speaker, time, title, body } = Astro.props;
 	</summary>
 	<div class="accordion-body">
 		<p class="body-text">{body}</p>
-		<p class="speaker">Speaker: {speaker}</p>
+		<p class="speaker">{speaker ? `Speaker: ${speaker}` : ''}</p>
 	</div>
 </details>
 
 <style>
 .accordion {
 	border: 1px solid #FAF9F6;
-	border-radius: 8px;
+	border-radius: 10px;
 	padding: 12px;
 	margin-bottom: 16px;
 	background-color: #1c2120;
@@ -37,13 +37,6 @@ const { speaker, time, title, body } = Astro.props;
 	transform: scale(1.02);
 }
 
-.header-content {
-	display: flex;
-	flex-direction: column;
-    align-items: center;
-	width: 100%;
-}
-
 .accordion-header {
 	cursor: pointer;
 	display: flex;
@@ -51,22 +44,23 @@ const { speaker, time, title, body } = Astro.props;
 	align-items: center;
 }
 
-.time {
-	color: #FAF9F6;
-	font-size: 14px;
-}
-
-.title {
-	color: #FAF9F6;
-	font-weight: bold;
-	font-size: 18px;
+.header-content {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	width: 100%;
 }
 
 .accordion-body {
 	margin-top: 8px;
-	padding: 8px;
+	padding: 16px;
 	background-color: #1c2120;
 	border-radius: 6px;
+}
+
+.accordion-header:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+	border-radius: 10px;
 }
 
 .toggle-icon {
@@ -79,21 +73,33 @@ details[open] .toggle-icon {
 	transform: rotate(180deg);
 }
 
+.accordion-header:focus {
+	outline: none;
+	outline-offset: 2px;
+}
+
+.time {
+	color: #FAF9F6;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.title {
+	color: #FAF9F6;
+	font-weight: bold;
+	font-size: 25px;
+}
+
 .body-text {
 	color: #FAF9F6;
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 4px;
 }
 
 .speaker {
 	color: #FAF9F6;
 	font-style: italic;
-	font-size: 13px;
+	font-size: 15px;
 	text-align: left;
-}
-
-.accordion-header:focus {
-	outline: 2px solid #FAF9F6;
-	outline-offset: 2px;
 }
 </style>
