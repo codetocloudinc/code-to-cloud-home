@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Dropdown from '../components/Dropdown.astro';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -60,6 +61,54 @@ import Card from '../components/Card.astro';
 				body="Come say hi to our amazing Discord community. ❤️"
 			/>
 		</ul>
+    <div class="agenda">
+      <h2 class="agenda-header">Code To Cloud: This Evening's Forcast</h2>
+      <Dropdown
+        time="4:00 PM - 4:10 PM"
+        title="Welcome & Introductions"
+        body="Kick off with an introduction to Code To Cloud Days, our mission, and the lineup for 2025."
+        speaker=""
+      />
+      <Dropdown
+        time="4:10 PM - 4:30 PM"
+        title="Keynote: The Adaptive Cloud"
+        body="Discover how adaptive cloud solutions are transforming the industry and Microsoft's impact on this evolution."
+        speaker="Angie Tran"
+      />
+      <Dropdown
+        time="4:30 PM - 5:00 PM "
+        title="Workshop Spotlight: Azure IoT Operations Manager"
+        body="A focused overview of Azure IoT Operations Manager, demonstrating IoT management and operational insights."
+        speaker="Clive Graven"
+      />
+      <Dropdown
+        time="5:00 PM - 5:40 PM"
+        title="The New Operating model: An Origin Story"
+        body="Infrastructure automation, DevOps culture and container deployments have shifted the shared responsibility model for every layer of the app delivery technology stack. Join us for a look at what the new operating model is evolving into to drive success in complex enterprise environments."
+        speaker="Todd Wilson"
+      /> 
+      <Dropdown
+        time="5:40 PM - 6:05 PM"
+        title="Work Smarter, Not Harder with Microsoft Copilot"
+        body="Discover how to work smarter, not harder, with Microsoft Copilot. Join Katrina Bryant as she demonstrates how AI-powered tools can streamline your workflows, enhance productivity, and unlock new efficiencies in your daily tasks."
+        speaker="Katrina Bryant"
+      />
+      <Dropdown
+        time="6:05 PM - 6:30 PM "
+        title="Fireside Chat: Scaling Success with Retinalogik"
+        body="Join Retinalogik in an inspiring fireside chat as they discuss their journey of innovation in vision technology. Learn how they're scaling their operations, advancing AI-powered solutions, and shaping the future of optical diagnostics."
+        speaker="Kevin Evans & Abdullah Sarhan"
+      />
+      <Dropdown
+        time="6:30 PM - 6:50 PM"
+        title="Q&A and Closing Remarks"
+        body="An open Q&A session and a preview of what's next for Code To Cloud Days."
+        speaker=""
+      />
+    </div>
+
+
+
 	</main>
 </Layout>
 
@@ -84,6 +133,13 @@ import Card from '../components/Card.astro';
 	}
 	h1 {
 		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	h2 {
+		font-size: 2rem;
 		font-weight: 700;
 		line-height: 1;
 		text-align: center;
