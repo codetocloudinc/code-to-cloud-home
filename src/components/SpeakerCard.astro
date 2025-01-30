@@ -17,7 +17,7 @@ const { speaker } = Astro.props as SpeakerContentProps
 ---
 
 
-<section>
+<section class="responsive-ordered-list">
 
   <ul>
       <li id={speaker.id} class="speaker-card">
@@ -49,12 +49,12 @@ const { speaker } = Astro.props as SpeakerContentProps
 <style>
 
   
-ul {
+ul{
     list-style: none;
     padding: 0;
     margin: 0; 
-    justify-content: center; 
 }
+
 
 li.speaker-card {
     background: #2B2C2F;
@@ -64,8 +64,6 @@ li.speaker-card {
     border-radius: 30px;
     padding: 20px;
     text-align: center;
-
- 
 }
 
 .image-container {
