@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Speaker's Name",
+    "role": "Job Position",
+    "company": "Company",
+    "talkTitle": "Title of Talk",
+    "image": {
+      "src": "../images/home/speakers/headshot-placeholder.png",
+
+      "alt": "Head shot of speaker"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Speaker's Name",
+    "role": "Job Position",
+    "company": "Company",
+    "talkTitle": "Title of Talk",
+    "image": {
+      "src": "../images/home/speakers/headshot-placeholder.png",
+      "alt": "Head shot of speaker"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Speaker's Name",
+    "role": "Job Position",
+    "company": "Company",
+    "talkTitle": "Title of Talk",
+    "image": {
+      "src": "../images/home/speakers/headshot-placeholder.png",
+      "alt": "Head shot of speaker"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Speaker's Name",
+    "role": "Job Position",
+    "company": "Company",
+    "talkTitle": "Title of Talk",
+    "image": {
+      "src": "../images/home/speakers/headshot-placeholder.png",
+      "alt": "Head shot of speaker"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Speaker's Name",
+    "role": "Job Position",
+    "company": "Company",
+    "talkTitle": "Title of Talk",
+    "image": {
+      "src": "../images/home/speakers/headshot-placeholder.png",
+      "alt": "Head shot of speaker"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Speaker's Name",
+    "role": "Job Position",
+    "company": "Company",
+    "talkTitle": "Title of Talk",
+    "image": {
+      "src": "../images/home/speakers/headshot-placeholder.png",
+      "alt": "Head shot of speaker"
+    }
+  }
+]
