@@ -1,0 +1,68 @@
+---
+import { Image } from "astro:assets"
+import Logo from "../images/code-to-cloud.png"
+
+const IMAGE_WIDTH = 800;
+const IMAGE_HEIGHT = 190;
+const RATIO = 0.75
+---
+
+<header>
+  <div class="width-container">
+    <div class="image-container">
+      <Image 
+      width={IMAGE_WIDTH * RATIO}
+      height={IMAGE_HEIGHT * RATIO}
+      src={Logo}
+      alt="Code to Cloud Logo"
+      />
+    </div>
+    <div class="container">
+      <p>Educate</p>
+      <p>Innovate</p>
+      <p>Elevate</p>
+      <a href="/">Let's Build</a>
+    </div>
+  </div>
+</header>
+
+<style>
+  header {
+    padding-block: 20px;
+  }
+  
+  .width-container {
+    width: min(80%, 1280px);
+    margin: 0 auto;
+  }
+
+  .image-container {
+    margin-block: 2rem;
+  }
+
+  .container {
+    display: grid;
+    gap: 20px;
+    justify-content: start;
+  }
+
+  p {
+    margin: 0;
+    color: #faf9f6;
+    font-size: 2rem;
+  }
+
+  a {
+    color: #faf9f6;
+    font-size: 1.75rem;
+    padding: 16px 36px;
+    border: 1px solid #faf9f6;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: background 300ms ease-in-out;
+  }
+
+  a:hover {
+    background: #3a3b45;
+  }
+</style>
