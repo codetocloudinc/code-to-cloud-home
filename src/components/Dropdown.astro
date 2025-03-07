@@ -18,7 +18,7 @@ const { speaker, time, title, body } = Astro.props;
 		</div>
 	</summary>
 	<div class="accordion-body">
-		<p class="body-text">{body}</p>
+		<p class="accordian-body-text">{body}</p>
 		<p class="speaker">{speaker ? `Speaker: ${speaker}` : ''}</p>
 	</div>
 </details>
@@ -90,7 +90,7 @@ details[open] .toggle-icon {
 	font-size: 25px;
 }
 
-.body-text {
+.accordian-body-text {
 	color: #FAF9F6;
 	font-size: 16px;
 	margin-bottom: 4px;
