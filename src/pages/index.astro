@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import NavBar from "../components/NavBar.astro";
+import FooterContent from '../components/FooterContent.astro';
 ---
 
 <Layout title="Welcome to Astro.">
@@ -66,6 +67,9 @@ import NavBar from "../components/NavBar.astro";
       />
     </ul>
   </main>
+	<footer>
+		<FooterContent />
+	</footer>
 </Layout>
 
 <style>
